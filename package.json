@@ -1,0 +1,31 @@
+{
+  "name": "borneo",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Dwivedi",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.13.0",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^82.0.0",
+    "i": "^0.3.6",
+    "npm": "^7.20.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.12"
+  }
+}
