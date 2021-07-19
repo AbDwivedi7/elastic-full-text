@@ -11,10 +11,10 @@ router.get('/search', async (req, res) => {
   try {
     const queryParam = req.query.q;
     const result = await searchDoc.getDocs(queryParam);
-   res.status(200).send({ message: "success", result: result});
+    res.status(200).send({ message: "success", result: result});
   } catch (err) {
     console.log(err);
-    res.status(400).send({ message: "failed" });
+    res.status(400).send({ message: "error", result: [] });
   }
 });
 
